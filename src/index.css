@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth; /* Для плавного скролла по якорям и по сайту */
+  color: #f2f2f2;
+  fill: #f2f2f2;
+  background-color: #131313;
+}
+#root{
+  height: 100%;
+}
+div {
+  position: relative;
+}
+section {
+  position: relative; /* делаем позиционирование в секциях, удобно для размещения абсолютных блоков */
+  padding: 50px 0;
+  overflow: hidden;
+}
+ul,
+ol {
+  list-style: none; /* Убираем базовые цифры и пометки списков */
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+p, li{
+  white-space: pre-line;
+}
+button {
+  cursor: pointer; /* Добавляем палец при наведении на кнопку */
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Button */
+.buyBtn{
+  background: linear-gradient(90deg, #E1A230, #FDE198);
+  padding: 18px 70px;
+  font-family: "Moula";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+}
+
+h2{
+  color: transparent;
+  background: linear-gradient(90deg, #e1a230, #fde198);
+  -webkit-background-clip: text; /* Для Safari */
+  background-clip: text;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 600;
+}

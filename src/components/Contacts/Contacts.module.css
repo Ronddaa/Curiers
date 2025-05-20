@@ -1,0 +1,25 @@
+.wrapperContactsList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.oneUser{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 12px;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    align-items: center;
+}
+.userName{
+    font-size: 22px;
+}
+.wrapperContactsLinks{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.wrapperContactsLinks li{
+    padding: 3px;
+}
